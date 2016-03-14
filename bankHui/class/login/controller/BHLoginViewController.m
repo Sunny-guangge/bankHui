@@ -39,10 +39,20 @@
     
     [BHNetworking getWithUrl:@"http://app.yoparent.cn/alading/expert/list.json" params:dic success:^(id response) {
         
-        NSLog(@"--------------\n%@",response);
+        NSLog(@"GET请求：------------\n%@",response);
         
     } fail:^(NSError *error) {
-        NSLog(@"%@",error);
+        NSLog(@"GET请求：------------\n%@",error);
+    }];
+    
+    
+    [BHNetworking postWithUrl:@"http://app.yoparent.cn/alading/post/hotList.json" params:dic success:^(id response) {
+        
+        NSLog(@"POST请求：-------\n%@",response);
+        
+    } fail:^(NSError *error) {
+        
+        NSLog(@"POST请求：-------\n%@",error);
     }];
 }
 
