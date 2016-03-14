@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FAEC8F51C90211100A001C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEC8F41C90211100A001C1 /* main.m */; };
+		4FAEC8FE1C90211100A001C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAEC8FC1C90211100A001C1 /* Main.storyboard */; };
+		4FAEC9031C90211100A001C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAEC9011C90211100A001C1 /* LaunchScreen.storyboard */; };
+		4FAEC90E1C90211100A001C1 /* bankHuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEC90D1C90211100A001C1 /* bankHuiTests.m */; };
+		4FAEC9191C90211100A001C1 /* bankHuiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEC9181C90211100A001C1 /* bankHuiUITests.m */; };
+		4FAEC92D1C9021DF00A001C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEC92C1C9021DF00A001C1 /* AppDelegate.m */; };
+		4FAEC92F1C9021EF00A001C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FAEC92E1C9021EF00A001C1 /* Assets.xcassets */; };
+		4FAEC9361C90225800A001C1 /* BHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEC9351C90225800A001C1 /* BHLoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FAEC90A1C90211100A001C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FAEC8E81C90211100A001C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FAEC8EF1C90211100A001C1;
+			remoteInfo = bankHui;
+		};
+		4FAEC9151C90211100A001C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FAEC8E81C90211100A001C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FAEC8EF1C90211100A001C1;
+			remoteInfo = bankHui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FAEC8F01C90211100A001C1 /* bankHui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bankHui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAEC8F41C90211100A001C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FAEC8FD1C90211100A001C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FAEC9021C90211100A001C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FAEC9041C90211100A001C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAEC9091C90211100A001C1 /* bankHuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bankHuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAEC90D1C90211100A001C1 /* bankHuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bankHuiTests.m; sourceTree = "<group>"; };
+		4FAEC90F1C90211100A001C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAEC9141C90211100A001C1 /* bankHuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bankHuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAEC9181C90211100A001C1 /* bankHuiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bankHuiUITests.m; sourceTree = "<group>"; };
+		4FAEC91A1C90211100A001C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAEC92B1C9021DF00A001C1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FAEC92C1C9021DF00A001C1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FAEC92E1C9021EF00A001C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FAEC9341C90225800A001C1 /* BHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHLoginViewController.h; sourceTree = "<group>"; };
+		4FAEC9351C90225800A001C1 /* BHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHLoginViewController.m; sourceTree = "<group>"; };
+		4FAEC9411C902D7700A001C1 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		4FAEC9421C902D7700A001C1 /* constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
+		4FAEC9431C902D7700A001C1 /* NotificationConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationConstant.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FAEC8ED1C90211100A001C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAEC9061C90211100A001C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAEC9111C90211100A001C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FAEC8E71C90211100A001C1 = {
+			isa = PBXGroup;
+			children = (
+				4FAEC8F21C90211100A001C1 /* bankHui */,
+				4FAEC90C1C90211100A001C1 /* bankHuiTests */,
+				4FAEC9171C90211100A001C1 /* bankHuiUITests */,
+				4FAEC8F11C90211100A001C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FAEC8F11C90211100A001C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC8F01C90211100A001C1 /* bankHui.app */,
+				4FAEC9091C90211100A001C1 /* bankHuiTests.xctest */,
+				4FAEC9141C90211100A001C1 /* bankHuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FAEC8F21C90211100A001C1 /* bankHui */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC9401C902D7700A001C1 /* constant */,
+				4FAEC92A1C90218500A001C1 /* source */,
+				4FAEC9291C90217900A001C1 /* class */,
+				4FAEC9281C90216F00A001C1 /* common */,
+				4FAEC9271C90216600A001C1 /* lib */,
+				4FAEC9261C90213F00A001C1 /* AppDelegate */,
+				4FAEC8FC1C90211100A001C1 /* Main.storyboard */,
+				4FAEC9011C90211100A001C1 /* LaunchScreen.storyboard */,
+				4FAEC8F31C90211100A001C1 /* Supporting Files */,
+			);
+			path = bankHui;
+			sourceTree = "<group>";
+		};
+		4FAEC8F31C90211100A001C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC9041C90211100A001C1 /* Info.plist */,
+				4FAEC8F41C90211100A001C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FAEC90C1C90211100A001C1 /* bankHuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC90D1C90211100A001C1 /* bankHuiTests.m */,
+				4FAEC90F1C90211100A001C1 /* Info.plist */,
+			);
+			path = bankHuiTests;
+			sourceTree = "<group>";
+		};
+		4FAEC9171C90211100A001C1 /* bankHuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC9181C90211100A001C1 /* bankHuiUITests.m */,
+				4FAEC91A1C90211100A001C1 /* Info.plist */,
+			);
+			path = bankHuiUITests;
+			sourceTree = "<group>";
+		};
+		4FAEC9261C90213F00A001C1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC92B1C9021DF00A001C1 /* AppDelegate.h */,
+				4FAEC92C1C9021DF00A001C1 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4FAEC9271C90216600A001C1 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		4FAEC9281C90216F00A001C1 /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		4FAEC9291C90217900A001C1 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC9301C90221300A001C1 /* login */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		4FAEC92A1C90218500A001C1 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC92E1C9021EF00A001C1 /* Assets.xcassets */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		4FAEC9301C90221300A001C1 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC9331C90223700A001C1 /* model */,
+				4FAEC9321C90222E00A001C1 /* view */,
+				4FAEC9311C90222700A001C1 /* controller */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		4FAEC9311C90222700A001C1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC9341C90225800A001C1 /* BHLoginViewController.h */,
+				4FAEC9351C90225800A001C1 /* BHLoginViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4FAEC9321C90222E00A001C1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4FAEC9331C90223700A001C1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4FAEC9401C902D7700A001C1 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				4FAEC9411C902D7700A001C1 /* AppConstant.h */,
+				4FAEC9421C902D7700A001C1 /* constant.h */,
+				4FAEC9431C902D7700A001C1 /* NotificationConstant.h */,
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FAEC8EF1C90211100A001C1 /* bankHui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAEC91D1C90211100A001C1 /* Build configuration list for PBXNativeTarget "bankHui" */;
+			buildPhases = (
+				4FAEC8EC1C90211100A001C1 /* Sources */,
+				4FAEC8ED1C90211100A001C1 /* Frameworks */,
+				4FAEC8EE1C90211100A001C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bankHui;
+			productName = bankHui;
+			productReference = 4FAEC8F01C90211100A001C1 /* bankHui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FAEC9081C90211100A001C1 /* bankHuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAEC9201C90211100A001C1 /* Build configuration list for PBXNativeTarget "bankHuiTests" */;
+			buildPhases = (
+				4FAEC9051C90211100A001C1 /* Sources */,
+				4FAEC9061C90211100A001C1 /* Frameworks */,
+				4FAEC9071C90211100A001C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FAEC90B1C90211100A001C1 /* PBXTargetDependency */,
+			);
+			name = bankHuiTests;
+			productName = bankHuiTests;
+			productReference = 4FAEC9091C90211100A001C1 /* bankHuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FAEC9131C90211100A001C1 /* bankHuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAEC9231C90211100A001C1 /* Build configuration list for PBXNativeTarget "bankHuiUITests" */;
+			buildPhases = (
+				4FAEC9101C90211100A001C1 /* Sources */,
+				4FAEC9111C90211100A001C1 /* Frameworks */,
+				4FAEC9121C90211100A001C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FAEC9161C90211100A001C1 /* PBXTargetDependency */,
+			);
+			name = bankHuiUITests;
+			productName = bankHuiUITests;
+			productReference = 4FAEC9141C90211100A001C1 /* bankHuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FAEC8E81C90211100A001C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王帅广";
+				TargetAttributes = {
+					4FAEC8EF1C90211100A001C1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4FAEC9081C90211100A001C1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4FAEC8EF1C90211100A001C1;
+					};
+					4FAEC9131C90211100A001C1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4FAEC8EF1C90211100A001C1;
+					};
+				};
+			};
+			buildConfigurationList = 4FAEC8EB1C90211100A001C1 /* Build configuration list for PBXProject "bankHui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FAEC8E71C90211100A001C1;
+			productRefGroup = 4FAEC8F11C90211100A001C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FAEC8EF1C90211100A001C1 /* bankHui */,
+				4FAEC9081C90211100A001C1 /* bankHuiTests */,
+				4FAEC9131C90211100A001C1 /* bankHuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FAEC8EE1C90211100A001C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAEC9031C90211100A001C1 /* LaunchScreen.storyboard in Resources */,
+				4FAEC92F1C9021EF00A001C1 /* Assets.xcassets in Resources */,
+				4FAEC8FE1C90211100A001C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAEC9071C90211100A001C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAEC9121C90211100A001C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FAEC8EC1C90211100A001C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAEC8F51C90211100A001C1 /* main.m in Sources */,
+				4FAEC92D1C9021DF00A001C1 /* AppDelegate.m in Sources */,
+				4FAEC9361C90225800A001C1 /* BHLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAEC9051C90211100A001C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAEC90E1C90211100A001C1 /* bankHuiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAEC9101C90211100A001C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAEC9191C90211100A001C1 /* bankHuiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FAEC90B1C90211100A001C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FAEC8EF1C90211100A001C1 /* bankHui */;
+			targetProxy = 4FAEC90A1C90211100A001C1 /* PBXContainerItemProxy */;
+		};
+		4FAEC9161C90211100A001C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FAEC8EF1C90211100A001C1 /* bankHui */;
+			targetProxy = 4FAEC9151C90211100A001C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FAEC8FC1C90211100A001C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAEC8FD1C90211100A001C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FAEC9011C90211100A001C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAEC9021C90211100A001C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FAEC91B1C90211100A001C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FAEC91C1C90211100A001C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FAEC91E1C90211100A001C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bankHui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bankhui.bankHui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FAEC91F1C90211100A001C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bankHui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bankhui.bankHui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FAEC9211C90211100A001C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bankHuiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bankhui.bankHuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bankHui.app/bankHui";
+			};
+			name = Debug;
+		};
+		4FAEC9221C90211100A001C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bankHuiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bankhui.bankHuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bankHui.app/bankHui";
+			};
+			name = Release;
+		};
+		4FAEC9241C90211100A001C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bankHuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bankhui.bankHuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bankHui;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4FAEC9251C90211100A001C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bankHuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bankhui.bankHuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bankHui;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FAEC8EB1C90211100A001C1 /* Build configuration list for PBXProject "bankHui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAEC91B1C90211100A001C1 /* Debug */,
+				4FAEC91C1C90211100A001C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAEC91D1C90211100A001C1 /* Build configuration list for PBXNativeTarget "bankHui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAEC91E1C90211100A001C1 /* Debug */,
+				4FAEC91F1C90211100A001C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAEC9201C90211100A001C1 /* Build configuration list for PBXNativeTarget "bankHuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAEC9211C90211100A001C1 /* Debug */,
+				4FAEC9221C90211100A001C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAEC9231C90211100A001C1 /* Build configuration list for PBXNativeTarget "bankHuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAEC9241C90211100A001C1 /* Debug */,
+				4FAEC9251C90211100A001C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FAEC8E81C90211100A001C1 /* Project object */;
+}
