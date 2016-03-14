@@ -8,6 +8,7 @@
 
 #import "BHLoginViewController.h"
 #import "constant.h"
+#import "BHNetworking.h"
 
 @interface BHLoginViewController ()
 
@@ -30,6 +31,21 @@
     [self initUI];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:@"10",@"pageSize",@"768108968dc94a8f929d765b9b04b6a7",@"token", nil];
+    
+    [BHNetworking getWithUrl:@"http://app.yoparent.cn/alading/expert/list.json" params:dic success:^(id response) {
+        
+        NSLog(@"--------------\n%@",response);
+        
+    } fail:^(NSError *error) {
+        NSLog(@"%@",error);
+    }];
+}
+
 #pragma mark - UInterface
 - (void)initUI
 {
@@ -41,12 +57,42 @@
 #pragma mark - Methord
 - (void)didCLickLoginButton
 {
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    /*
+     //presentViewController的动画
+     CATransition *animation = [CATransition animation];
+     animation.duration = 0.5;
+     animation.timingFunction = UIViewAnimationCurveEaseInOut;
+     //    animation.type = @"pageCurl";
+     animation.type = kCATransitionMoveIn;
+     animation.subtype = kCATransitionFromRight;
+     
+     [self.view.window.layer addAnimation:animation forKey:nil];
+     
+     
+     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+     
+     UITabBarController *tabbarVC = [storyBoard instantiateInitialViewController];
+     
+     [self presentViewController:tabbarVC animated:NO completion:nil];
+     */
     
-    UITabBarController *tabbarVC = [storyBoard instantiateInitialViewController];
+    NSString *url = [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, 1, 1) firstObject];
     
-    [self presentViewController:tabbarVC animated:YES completion:nil];
+    NSLog(@"存储的路径：------%@",url);
     
+    [BHNetworking downloadWithUrl:@"http://7xi66y.com1.z0.glb.clouddn.com/winnovator_home%2Fwinnovator_media.mp4" saveToPath:url progress:^(int64_t bytesRead, int64_t totalBytesRead) {
+        
+        NSLog(@"%lld",bytesRead);
+        
+    } success:^(id response) {
+        
+        NSLog(@"下载成功：%@",response);
+        
+    } fail:^(NSError *error) {
+        
+        NSLog(@"下载错误：%@",error);
+        
+    }];
 }
 
 
