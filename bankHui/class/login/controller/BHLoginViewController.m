@@ -114,7 +114,9 @@
         _nameTextField = [[UITextField alloc] initWithFrame:CGRectMake(20, 60, SCREEHW - 40, 44)];
         _nameTextField.placeholder = @"请输入用户名";
         _nameTextField.returnKeyType = UIReturnKeyNext;
-        _nameTextField.borderStyle = UITextBorderStyleRoundedRect;
+        _nameTextField.borderStyle = UITextBorderStyleNone;
+        _nameTextField.keyboardType = UIKeyboardTypeNumberPad;
+        _nameTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
     }
     return _nameTextField;
 }
